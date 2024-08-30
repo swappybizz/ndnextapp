@@ -10,7 +10,7 @@ export default function Home() {
       <h1
       className='text-[7.5rem] font-bold leading-none tracking-tighter text-center'
       >
-        Vi er et web-og app designfirma
+        Vi er et web og app designfirma
 
       </h1>
 
