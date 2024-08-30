@@ -30,7 +30,7 @@ const Header = () => {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className='flex items-center space-x-8 ml-auto md:hidden'>
+                    <div className='flex items-center space-x-8 ml-auto md:hidden '>
                         <button
                             className='bg-[#000000] text-lg text-[#FAF9F6] p-3 font-semibold hover:underline'
                             onClick={toggleMenu}
@@ -43,8 +43,8 @@ const Header = () => {
 
             {/* Mobile Menu */}
             {isMenuOpen && (
-                <div className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-10 md:hidden'>
-                    <div className='bg-black w-full h-full p-8'>
+                <div className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-[10000] md:hidden'>
+                    <div className='bg-black w-full h-full p-8 '>
                         <button className='absolute top-2 right-4 text-white' onClick={toggleMenu}>
                             Close
                         </button>
