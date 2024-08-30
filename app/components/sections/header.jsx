@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <>
-            <div className='w-[99.9%] fixed min-h-24 border-b-[1px] border-[#FAF9F6] top-0 flex border-opacity-0'>
+            <div className='w-[99.9%] fixed min-h-24 border-b-[1px] border-[#FAF9F6] top-0 flex border-opacity-0 z-20'>
                 <div className='flex items-center justify-between w-full px-8 '>
                     {/* Desktop Menu */}
                     <div className='hidden md:flex items-center space-x-8 ml-auto'>
@@ -24,7 +24,7 @@ const Header = () => {
                         <a href='#' className='text-lg font-semibold hover:underline'>
                             Pricing
                         </a>
-                        <a href='#' className='text-lg font-semibold bg-[#FAF9F6] text-black px-4 py-2 rounded hover:bg-opacity-80'>
+                        <a href='#' className='text-lg font-semibold bg-[#FAF9F6] text-black px-4 py-2 hover:bg-opacity-80'>
                             Contact
                         </a>
                     </div>
