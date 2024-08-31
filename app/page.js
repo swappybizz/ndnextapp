@@ -4,7 +4,8 @@ import Cube from "./components/widgets/cube";
 import Products from "./components/sections/Products";
 import Intro from "./components/sections/Intro";
 import Explain from "./components/sections/Explain";
-import { useState } from "react";
+import Pricing from "./components/sections/Pricing";
+import Footer from "./components/sections/Footer";
 export default function Home() {
   
   return (
@@ -33,17 +34,25 @@ export default function Home() {
           Vi er et web og digital designfirma
         </h1>
       </div>
-      <div className="w-full z-10 border min-h-screen mx-5 border-t-0 flex flex-col justify-end bg-black">
-        <Products />
-      </div>
       <div className="w-full z-10 border min-h-screen mx-5 border-t-0 flex flex-col justify-between items-center bg-black">
         <Intro />
+      </div>
+      <div className="w-full z-10 border min-h-screen mx-5 border-t-0 flex flex-col justify-end bg-black">
+        <Products />
       </div>
       <div className="w-full z-10 border h-screen mx-5 border-t-0 flex flex-col justify-center items-center bg-black">
         <Explain />
         
       </div>
-      <div className="w-full z-10 border h-screen mx-5 border-t-0 flex flex-col justify-end "></div>
+      <div className="w-full z-10 border h-screen mx-5 border-t-0 flex flex-col justify-center items-center  ">
+
+        <Pricing />
+      </div>
+      <div className="w-full z-10 border h-screen mx-5 border-t-0 flex flex-col justify-end items-center bg-black  ">
+
+        <Footer />
+      </div>
+
     </div>
   );
 }

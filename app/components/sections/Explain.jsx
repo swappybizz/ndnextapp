@@ -30,7 +30,7 @@ return (
                     setSlideNo("cp1.svg");
                 }
             }}
-            className="bg-red-600 w-3/4 h-3/4 cursor-pointer flex md:flex-row flex-col items-center justify-center transition-all ease-in-out duration-300 hover:scale-105"
+            className="bg-red-600 w-3/4 h-3/4 cursor-pointer flex md:flex-row flex-col items-center justify-center transition-all ease-in-out duration-300 hover:scale-105 "
             style={{ maxWidth: "100%", margin: "0 auto" }}
         >
             <h4
@@ -40,7 +40,7 @@ return (
             </h4>
 
             <img
-                className="max-w-[75%] max-h-[75%] object-fit"
+                className="max-w-[75%] max-h-[75%] object-fit hover:scale-75 ease-in-out duration-500"
                 // attach cp1, cp2 or cp3.svg based on teh slide state
                 src={slideno}
                 style={{ maxWidth: "100%" }}
