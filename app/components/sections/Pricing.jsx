@@ -75,8 +75,8 @@ const Pricing = () => {
         </div>
 
         <div className="mb-4 space-x-2">
-          <span className="text-4xl font-bold text-white">NOK 49</span>
-          <span className="text-2xl text-indigo-100 line-through">NOK 89</span>
+          <span className="text-4xl font-bold text-white">NOK 499</span>
+          <span className="text-2xl text-indigo-100 line-through">NOK 899</span>
         </div>
 
         <ul className="mb-6 space-y-2 text-indigo-100">
